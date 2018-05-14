@@ -24,12 +24,12 @@
 					</table:Column>
 					<table:Column id="startDateColumn" label="Start Date" width="160px">
 						<table:template>
-							<m:DateTimePicker placeholder=" " value="{test>order/0/startTime}" valueFormat="yyyyMMdd" change="handleDateChange" enabled="false"/>
+							<m:DatePicker placeholder=" " value="{test>order/0/startTime}" valueFormat="yyyyMMdd" change="handleDateChange" enabled="false"/>
 						</table:template>
 					</table:Column>
 					<table:Column id="endDateColumn" label="End Date" width="160px">
 						<table:template>
-							<m:DateTimePicker placeholder=" " value="{test>order/0/endTime}" valueFormat="yyyyMMdd" change="handleDateChange" enabled="false"/>
+							<m:DatePicker placeholder=" " value="{test>order/0/endTime}" valueFormat="yyyyMMdd" change="handleDateChange" enabled="false"/>
 						</table:template>
 					</table:Column>
 				</columns>

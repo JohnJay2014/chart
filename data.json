@@ -19,12 +19,7 @@
           {
             "id": "nwtForWeekends"
           }
-		    ],
-        "nwt": [
-          {
-            "id": "nwtForAWeek"
-          }
-        ]
+		    ]
       },
       {
         "id": "02",
@@ -43,11 +38,6 @@
             "id": "nwtForWeekends"
           }
         ],
-		    "nwt": [
-          {
-            "id": "nwtForAWeek"
-          }
-		    ],
         "children": [
           {
             "id": "0201",
@@ -90,11 +80,6 @@
         "nwtForWeekends": [
 			{
 				"id": "nwtForWeekends"
-			}
-		],
-		"nwt": [
-			{
-				"id": "nwtForAWeek"
 			}
 		],
         "children": [
@@ -247,11 +232,6 @@
         "nwtForWeekends": [
 			{
 				"id": "nwtForWeekends"
-			}
-		],
-        "nwt": [
-			{
-				"id": "nwtForAWeek"
 			}
 		],
         "children": [
@@ -800,15 +780,7 @@
         "guid": "rel_0108_0110"
       }
     ],
-    "calendar": [
-		{
-			"id": "nwtForAWeek",
-			"data": [{
-					"startTime": "20150501141533",
-					"endTime": "20150507141533"
-				}
-			]
-		},{
+    "calendar": [{
 			"id": "nwtForWeekends",
 			"data": [
 				{

@@ -14,7 +14,7 @@ sap.ui.define([
             sap.ui.getCore().byId("__xmlview0--GanttChartContainer").setTimeZoomRate(1);
             sap.ui.getCore().byId("__xmlview0--ganttView").jumpToPosition(new Date("2015/01/01"));
 		},
-		
+
 		onInit: function() {
 			var oGanttChartContainer = this.getView().byId("GanttChartContainer");
 			var oGanttChartWithTable = oGanttChartContainer.getGanttCharts()[0];
@@ -64,7 +64,7 @@ sap.ui.define([
 					}
 				})
 				);
-				
+
 				oGanttChartWithTable.setTimeAxis(that._createTimeAxis());
 				oGanttChartWithTable.setShapeDataNames(["top", "order", "milestone", "constraint", "relationship", "nwt", "nwtForWeekends"]);
 				oGanttChartWithTable.setShapes(that._configShape());
@@ -72,9 +72,9 @@ sap.ui.define([
 				oGanttChartWithTable.setSelectionMode(sap.gantt.SelectionMode.Multiple);
 			});
 
-			
+
 		},
-		
+
 		onAfterRendering: function(){
 			var that = this;
 			setTimeout(function(){
@@ -285,13 +285,13 @@ sap.ui.define([
 
 				return selectRectange;
 			});
-			
+
 			// define a milestone (diamond)
 			sap.ui.define(["sap/gantt/shape/ext/Diamond", "sap/ui/core/Core"], function (Diamond, Core) {
-				var milestone = Diamond.extend("sap.test.Milestone");			
+				var milestone = Diamond.extend("sap.test.Milestone");
 				return milestone;
 			}, true);
-			
+
 			// define a constraint (triangle)
 			sap.ui.define(["sap/gantt/shape/ext/Triangle", "sap/ui/core/Core"], function (Triangle, Core) {
 				var constraint = Triangle.extend("sap.test.Constraint");
@@ -394,7 +394,7 @@ sap.ui.define([
 					fromDataId:"{fromDataId}",
 					toDataId:"{toDataId}",
 					fromShapeId:"{fromShapeId}",
-					toShapeId:"{toShapeId}",	
+					toShapeId:"{toShapeId}",
 					title: "{tooltip}",
 					id: "{guid}"
 				}
@@ -489,7 +489,7 @@ sap.ui.define([
 			//change the form of date from millis to timestamp
 			var sTarStartTime = sap.gantt.misc.Format.dateToAbapTimestamp(new Date(oTargetData.mouseTimestamp.startTime));
 			var sTarEndTime = sap.gantt.misc.Format.dateToAbapTimestamp(new Date(oTargetData.mouseTimestamp.endTime));
-			
+
 			if (!oTargetData.objectInfo) {
 				this._showNotAllowedMsg();
 				return false;
@@ -497,9 +497,9 @@ sap.ui.define([
 
 			var sTargetId = oTargetData.objectInfo.id;
 			var sId = aSourceShapeData[0].objectInfo.id;
-			
+
 			if (this._checkDropSameRow(sSourceId, sTargetId) && this._selectOnlyOneRow(aSourceShapeData)) {
-				//oSourceShapeData is a reference, so we only need to change startTime and endTime, then reset data model 
+				//oSourceShapeData is a reference, so we only need to change startTime and endTime, then reset data model
 				oSourceShapeData.startTime = sTarStartTime;
 				oSourceShapeData.endTime = sTarEndTime;
 				var oModelData = this._oModel.getData();
@@ -548,13 +548,13 @@ sap.ui.define([
 		_createTimeAxis: function() {
 			var oTimeAxis = new sap.gantt.config.TimeAxis({
 				planHorizon: new sap.gantt.config.TimeHorizon({
-					startTime: "20131228000000",
-					endTime: "20170101000000"
+					startTime: "20080101000000",
+					endTime: "20200101000000"
 				}),
 				// specify initHorizon rather than the default one
 				initHorizon: new sap.gantt.config.TimeHorizon({
-					startTime: "20161001000000",
-					endTime: "20161201000000"
+					startTime: "20080101000000",
+					endTime: "20200101000000"
 				}),
 				zoomStrategy: {
 					"1day": {
@@ -651,7 +651,7 @@ sap.ui.define([
 
 			return oTimeAxis;
 		},
-		
+
 		_createTimeAxis1: function() {
 			var oTimeAxis = new sap.gantt.config.TimeAxis({
 				planHorizon: new sap.gantt.config.TimeHorizon({
@@ -659,7 +659,7 @@ sap.ui.define([
 					endTime: "20270101000000"
 				}),
 				initHorizon: new sap.gantt.config.TimeHorizon({
-					
+
 				}),
 				zoomStrategy: {
 					"1day": {
