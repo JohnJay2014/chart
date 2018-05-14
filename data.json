@@ -6,7 +6,7 @@
       {
         "id": "01",
         "level": "01",
-        "name": "Concept Phase",
+        "name": "High School",
         "order": [
           {
             "startTime": "20150101000000",
@@ -220,7 +220,7 @@
       {
         "id": "02",
         "level": "01",
-        "name": "Design Phase",
+        "name": "University",
         "order": [
           {
             "startTime": "2015012500000",
@@ -402,7 +402,7 @@
       {
         "id": "03",
         "level": "01",
-        "name": "Validation Phase",
+        "name": "Internship",
         "order": [
           {
             "startTime": "2015031100000",
@@ -558,11 +558,11 @@
       {
         "id": "04",
         "level": "01",
-        "name": "Production Preparation",
+        "name": "Full-time Job",
         "order": [
           {
-            "startTime": "2015043000000",
-            "endTime": "20150612000000",
+            "startTime": "2016071100000",
+            "endTime": "",
             "level": "1"
           }
         ],
@@ -1126,7 +1126,7 @@
 		{
 			"id": "nwtForAWeek",
 			"data": [{
-					"startTime": "20150501141533", 
+					"startTime": "20150501141533",
 					"endTime": "20150507141533"
 				}
 			]
@@ -1134,70 +1134,70 @@
 			"id": "nwtForWeekends",
 			"data": [
 				{
-					"startTime": "20150103141533", 
+					"startTime": "20150103141533",
 					"endTime": "20150104141533"
 				},{
-					"startTime": "20150110141533", 
+					"startTime": "20150110141533",
 					"endTime": "20150111141533"
 				},{
-					"startTime": "20150117141533", 
+					"startTime": "20150117141533",
 					"endTime": "20150118141533"
 				},{
-					"startTime": "20150124141533", 
+					"startTime": "20150124141533",
 					"endTime": "20150125141533"
 				},{
-					"startTime": "20150131141533", 
+					"startTime": "20150131141533",
 					"endTime": "20150201141533"
 				},{
-					"startTime": "20150207141533", 
+					"startTime": "20150207141533",
 					"endTime": "20150208141533"
 				},{
-					"startTime": "20150214141533", 
+					"startTime": "20150214141533",
 					"endTime": "20150215141533"
 				},{
-					"startTime": "20150221141533", 
+					"startTime": "20150221141533",
 					"endTime": "20150222141533"
 				},{
-					"startTime": "20150228141533", 
+					"startTime": "20150228141533",
 					"endTime": "20150301141533"
 				},{
-					"startTime": "20150307141533", 
+					"startTime": "20150307141533",
 					"endTime": "20150308141533"
 				},{
-					"startTime": "20150314141533", 
+					"startTime": "20150314141533",
 					"endTime": "20150315141533"
 				},{
-					"startTime": "20150321141533", 
+					"startTime": "20150321141533",
 					"endTime": "20150322141533"
 				},{
-					"startTime": "20150328141533", 
+					"startTime": "20150328141533",
 					"endTime": "20150329141533"
 				},{
-					"startTime": "20150404141533", 
+					"startTime": "20150404141533",
 					"endTime": "20150405141533"
 				},{
-					"startTime": "20150411141533", 
+					"startTime": "20150411141533",
 					"endTime": "20150412141533"
 				},{
-					"startTime": "20150418141533", 
+					"startTime": "20150418141533",
 					"endTime": "20150419141533"
 				},{
-					"startTime": "20150425141533", 
+					"startTime": "20150425141533",
 					"endTime": "20150426141533"
 				},{
-					"startTime": "20150509141533", 
+					"startTime": "20150509141533",
 					"endTime": "20150510141533"
 				},{
-					"startTime": "20150516141533", 
+					"startTime": "20150516141533",
 					"endTime": "20150517141533"
 				},{
-					"startTime": "20150523141533", 
+					"startTime": "20150523141533",
 					"endTime": "20150524141533"
 				},{
-					"startTime": "20150530141533", 
+					"startTime": "20150530141533",
 					"endTime": "20150531141533"
 				},{
-					"startTime": "20150606141533", 
+					"startTime": "20150606141533",
 					"endTime": "20150607141533"
 				}
 			]
