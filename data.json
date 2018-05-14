@@ -12,7 +12,7 @@
             "startTime": "20150101000000",
             "endTime": "20150125000000",
             "level": "1",
-            "location": "Dalian, Chi"
+            "location": "Dalian, China"
           }
         ],
         "nwtForWeekends": [
@@ -34,19 +34,20 @@
           {
             "startTime": "2015012500000",
             "endTime": "20150311000000",
-            "level": "1"
+            "level": "1",
+            "location": "Shanghai, China"
           }
         ],
         "nwtForWeekends": [
-			{
-				"id": "nwtForWeekends"
-			}
-		],
-		"nwt": [
-			{
-				"id": "nwtForAWeek"
-			}
-		],
+          {
+            "id": "nwtForWeekends"
+          }
+        ],
+		    "nwt": [
+          {
+            "id": "nwtForAWeek"
+          }
+		    ],
         "children": [
           {
             "id": "0201",
@@ -71,140 +72,6 @@
                 "level": "2"
               }
             ]
-          },
-          {
-            "id": "0203",
-            "level": "01",
-            "name": "Prepare Detailed Design",
-            "order": [
-              {
-                "startTime": "20150128000000",
-                "endTime": "20150207000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0204",
-            "level": "01",
-            "name": "Develop Detailed Design",
-            "order": [
-              {
-                "startTime": "20150207000000",
-                "endTime": "20150309000000",
-                "level": "2"
-              }
-            ],
-            "children": [
-              {
-                "id": "020401",
-                "level": "02",
-                "name": "Frame",
-                "order": [
-                  {
-                    "startTime": "20150207000000",
-                    "endTime": "20150309000000",
-                    "level": "2"
-                  }
-                ]
-              },
-              {
-                "id": "020402",
-                "level": "02",
-                "name": "Chasis",
-                "order": [
-                  {
-                    "startTime": "20150207000000",
-                    "endTime": "20150309000000",
-                    "level": "2"
-                  }
-                ]
-              },
-              {
-                "id": "020403",
-                "level": "02",
-                "name": "Engine",
-                "order": [
-                  {
-                    "startTime": "20150207000000",
-                    "endTime": "20150309000000",
-                    "level": "2"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "id": "0205",
-            "level": "01",
-            "name": "Update Business Plan",
-            "order": [
-              {
-                "startTime": "20150126000000",
-                "endTime": "20150205000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0206",
-            "level": "01",
-            "name": "Create Sourcing Plan",
-            "order": [
-              {
-                "startTime": "20150205000000",
-                "endTime": "20150215000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0207",
-            "level": "01",
-            "name": "Update Project Plan",
-            "order": [
-              {
-                "startTime": "20150126000000",
-                "endTime": "20150129000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0208",
-            "level": "01",
-            "name": "Release Design",
-            "order": [
-              {
-                "startTime": "20150309000000",
-                "endTime": "20150310000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0209",
-            "level": "01",
-            "name": "Freeze Documents",
-            "order": [
-              {
-                "startTime": "20150310000000",
-                "endTime": "20150311000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0210",
-            "level": "01",
-            "name": "Adjust Project Staffing",
-            "order": [
-              {
-                "startTime": "20150310000000",
-                "endTime": "20150311000000",
-                "level": "2"
-              }
-            ]
           }
         ]
       },
@@ -216,7 +83,8 @@
           {
             "startTime": "2015031100000",
             "endTime": "20150430000000",
-            "level": "1"
+            "level": "1",
+            "location": "Shanghai, China"
           }
         ],
         "nwtForWeekends": [
@@ -372,7 +240,8 @@
           {
             "startTime": "2016071100000",
             "endTime": "",
-            "level": "1"
+            "level": "1",
+            "location": "Shanghai, China"
           }
         ],
         "nwtForWeekends": [

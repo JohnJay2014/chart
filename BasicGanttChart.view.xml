@@ -19,17 +19,17 @@
 					</table:Column>
 					<table:Column id="location" label="Location" width="160px">
 						<table:template>
-							<m:Label placeholder=" " value="{test>order/0/endTime}"/>
+							<m:Label placeholder=" " text="{test>order/0/location}"/>
 						</table:template>
 					</table:Column>
 					<table:Column id="startDateColumn" label="Start Date" width="160px">
 						<table:template>
-							<m:Label placeholder=" " value="{test>order/0/startTime}" valueFormat="yyyyMMdd" change="handleDateChange"/>
+							<m:Label placeholder=" " text="{test>order/0/startTime}" valueFormat="yyyyMMdd" change="handleDateChange"/>
 						</table:template>
 					</table:Column>
 					<table:Column id="endDateColumn" label="End Date" width="160px">
 						<table:template>
-							<m:Label placeholder=" " value="{test>order/0/endTime}" valueFormat="yyyyMMdd" change="handleDateChange"/>
+							<m:Label placeholder=" " text="{test>order/0/endTime}" valueFormat="yyyyMMdd" change="handleDateChange"/>
 						</table:template>
 					</table:Column>
 				</columns>
