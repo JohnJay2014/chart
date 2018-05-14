@@ -9,17 +9,12 @@
         "name": "High School",
         "order": [
           {
-            "startTime": "20090701000000",
-            "endTime": "20120630000000",
+            "startTime": "20090701",
+            "endTime": "20120630",
             "level": "1",
             "location": "Dalian, China"
           }
-        ],
-        "nwtForWeekends": [
-          {
-            "id": "nwtForWeekends"
-          }
-		    ]
+        ]
       },
       {
         "id": "02",
@@ -27,38 +22,21 @@
         "name": "University",
         "order": [
           {
-            "startTime": "2012070100000",
-            "endTime": "20160630000000",
+            "startTime": "20120701",
+            "endTime": "20160630",
             "level": "1",
             "location": "Shanghai, China"
-          }
-        ],
-        "nwtForWeekends": [
-          {
-            "id": "nwtForWeekends"
           }
         ],
         "children": [
           {
             "id": "0201",
             "level": "01",
-            "name": "Kick-off Design Phase",
+            "name": "School of Computer Science and Software Engineering",
             "order": [
               {
-                "startTime": "20150701000000",
-                "endTime": "20160229000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0202",
-            "level": "01",
-            "name": "Create Engineering Change Number",
-            "order": [
-              {
-                "startTime": "20150126000000",
-                "endTime": "20150128000000",
+                "startTime": "20120701",
+                "endTime": "20160630",
                 "level": "2"
               }
             ]
@@ -71,26 +49,21 @@
         "name": "Internship",
         "order": [
           {
-            "startTime": "20150701000000",
-            "endTime": "20160229000000",
+            "startTime": "20150701",
+            "endTime": "20160229",
             "level": "1",
             "location": "Shanghai, China"
           }
         ],
-        "nwtForWeekends": [
-			{
-				"id": "nwtForWeekends"
-			}
-		],
         "children": [
           {
             "id": "0301",
             "level": "01",
-            "name": "Kick-off Validation Phase",
+            "name": "Siemens PLM Software",
             "order": [
               {
-                "startTime": "20150311000000",
-                "endTime": "20150312000000",
+                "startTime": "20150701",
+                "endTime": "20151130",
                 "level": "2"
               }
             ]
@@ -98,119 +71,11 @@
           {
             "id": "0302",
             "level": "01",
-            "name": "Create Validation Models",
+            "name": "SAP SuccessFactors",
             "order": [
               {
-                "startTime": "20150312000000",
-                "endTime": "20150314000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0303",
-            "level": "01",
-            "name": "Digital Validation",
-            "order": [
-              {
-                "startTime": "20150314000000",
-                "endTime": "20150403000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0304",
-            "level": "01",
-            "name": "Physical Validation",
-            "order": [
-              {
-                "startTime": "20150403000000",
-                "endTime": "20150423000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0305",
-            "level": "01",
-            "name": "Review Validation Results",
-            "order": [
-              {
-                "startTime": "20150423000000",
-                "endTime": "20150428000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0306",
-            "level": "01",
-            "name": "Update Business Plan",
-            "order": [
-              {
-                "startTime": "20150312000000",
-                "endTime": "20150317000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0307",
-            "level": "01",
-            "name": "Update Sourcing Plan",
-            "order": [
-              {
-                "startTime": "20150312000000",
-                "endTime": "20150314000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0308",
-            "level": "01",
-            "name": "Update Project Plan",
-            "order": [
-              {
-                "startTime": "20150312000000",
-                "endTime": "20150314000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0309",
-            "level": "01",
-            "name": "Release Product",
-            "order": [
-              {
-                "startTime": "20150428000000",
-                "endTime": "20150429000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0310",
-            "level": "01",
-            "name": "Freeze Documents",
-            "order": [
-              {
-                "startTime": "20150429000000",
-                "endTime": "20150430000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0311",
-            "level": "01",
-            "name": "Adjust Project Staffing",
-            "order": [
-              {
-                "startTime": "20150429000000",
-                "endTime": "20150430000000",
+                "startTime": "20151201",
+                "endTime": "20160229",
                 "level": "2"
               }
             ]
@@ -223,17 +88,12 @@
         "name": "Full-time Job",
         "order": [
           {
-            "startTime": "2016071100000",
-            "endTime": "",
+            "startTime": "20160711",
+            "endTime": "20220101",
             "level": "1",
             "location": "Shanghai, China"
           }
         ],
-        "nwtForWeekends": [
-			{
-				"id": "nwtForWeekends"
-			}
-		],
         "children": [
           {
             "id": "0401",
