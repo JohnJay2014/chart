@@ -25,8 +25,7 @@
           {
             "startTime": "20120701",
             "endTime": "20160630",
-            "level": "1",
-            "location": "Shanghai, China"
+            "level": "1"
           }
         ],
         "children": [
@@ -39,7 +38,8 @@
                 "startTime": "20120701",
                 "endTime": "20160630",
                 "level": "2",
-                "unit": "East China Normal University"
+                "unit": "East China Normal University",
+                "location": "Shanghai, China"
               }
             ]
           }
@@ -53,8 +53,7 @@
           {
             "startTime": "20150701",
             "endTime": "20160229",
-            "level": "1",
-            "location": "Shanghai, China"
+            "level": "1"
           }
         ],
         "children": [
@@ -67,7 +66,8 @@
                 "startTime": "20150701",
                 "endTime": "20151130",
                 "level": "2",
-                "unit": "Siemens PLM Software"
+                "unit": "Siemens PLM Software",
+                "location": "Shanghai, China"
               }
             ]
           },
@@ -80,7 +80,8 @@
                 "startTime": "20151201",
                 "endTime": "20160229",
                 "level": "2",
-                "unit": "SAP SuccessFactors"
+                "unit": "SAP SuccessFactors",
+                "location": "Shanghai, China"
               }
             ]
           }
@@ -104,8 +105,8 @@
             "name": "Software developer",
             "order": [
               {
-                "startTime": "20150430000000",
-                "endTime": "20150501000000",
+                "startTime": "20160711",
+                "endTime": "20220101",
                 "level": "2",
                 "unit": "SAP Transportation Management",
                 "location": "Shanghai, China"
