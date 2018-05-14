@@ -12,7 +12,8 @@
             "startTime": "20090701",
             "endTime": "20120630",
             "level": "1",
-            "location": "Dalian, China"
+            "location": "Dalian, China",
+            "unit": "Dalian No.24 High school"
           }
         ]
       },
@@ -37,7 +38,8 @@
               {
                 "startTime": "20120701",
                 "endTime": "20160630",
-                "level": "2"
+                "level": "2",
+                "unit": "East China Normal University"
               }
             ]
           }
@@ -59,24 +61,26 @@
           {
             "id": "0301",
             "level": "01",
-            "name": "Siemens PLM Software",
+            "name": "Software developer",
             "order": [
               {
                 "startTime": "20150701",
                 "endTime": "20151130",
-                "level": "2"
+                "level": "2",
+                "unit": "Siemens PLM Software"
               }
             ]
           },
           {
             "id": "0302",
             "level": "01",
-            "name": "SAP SuccessFactors",
+            "name": "Software developer",
             "order": [
               {
                 "startTime": "20151201",
                 "endTime": "20160229",
-                "level": "2"
+                "level": "2",
+                "unit": "SAP SuccessFactors"
               }
             ]
           }
@@ -90,80 +94,21 @@
           {
             "startTime": "20160711",
             "endTime": "20220101",
-            "level": "1",
-            "location": "Shanghai, China"
+            "level": "1"
           }
         ],
         "children": [
           {
             "id": "0401",
             "level": "01",
-            "name": "Kick-off Production Prep. Phase",
+            "name": "Software developer",
             "order": [
               {
                 "startTime": "20150430000000",
                 "endTime": "20150501000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0402",
-            "level": "01",
-            "name": "Design Routings",
-            "order": [
-              {
-                "startTime": "20150501000000",
-                "endTime": "20150521000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0403",
-            "level": "01",
-            "name": "Prepare Production Data",
-            "order": [
-              {
-                "startTime": "20150521000000",
-                "endTime": "20150531000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0404",
-            "level": "01",
-            "name": "Handover to Production",
-            "order": [
-              {
-                "startTime": "20150531000000",
-                "endTime": "20150610000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0405",
-            "level": "01",
-            "name": "Release Production",
-            "order": [
-              {
-                "startTime": "20150610000000",
-                "endTime": "20150611000000",
-                "level": "2"
-              }
-            ]
-          },
-          {
-            "id": "0406",
-            "level": "01",
-            "name": "Close Production",
-            "order": [
-              {
-                "startTime": "20150611000000",
-                "endTime": "20150612000000",
-                "level": "2"
+                "level": "2",
+                "unit": "SAP Transportation Management",
+                "location": "Shanghai, China"
               }
             ]
           }

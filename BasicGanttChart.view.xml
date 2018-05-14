@@ -12,22 +12,27 @@
 		<ganttCharts>
 			<GanttChartWithTable id="ganttView" shapeDragEnd="handleShapeDragEnd">
 				<columns>
-					<table:Column id="nameColumn" label="Name" width="160px">
+					<table:Column id="nameColumn" label="Phase" width="300px">
 						<table:template>
 								<m:Label text="{test>name}"/>
 						</table:template>
 					</table:Column>
-					<table:Column id="location" label="Location" width="160px">
+					<table:Column id="unit" label="Unit" width="140px">
+						<table:template>
+							<m:Label placeholder=" " text="{test>order/0/unit}"/>
+						</table:template>
+					</table:Column>
+					<table:Column id="location" label="City" width="140px">
 						<table:template>
 							<m:Label placeholder=" " text="{test>order/0/location}"/>
 						</table:template>
 					</table:Column>
-					<table:Column id="startDateColumn" label="Start Date" width="160px">
+					<table:Column id="startDateColumn" label="Start Date" width="100px">
 						<table:template>
 							<m:DatePicker placeholder=" " value="{test>order/0/startTime}" valueFormat="yyyyMMdd" change="handleDateChange" enabled="false"/>
 						</table:template>
 					</table:Column>
-					<table:Column id="endDateColumn" label="End Date" width="160px">
+					<table:Column id="endDateColumn" label="End Date" width="100px">
 						<table:template>
 							<m:DatePicker placeholder=" " value="{test>order/0/endTime}" valueFormat="yyyyMMdd" change="handleDateChange" enabled="false"/>
 						</table:template>
