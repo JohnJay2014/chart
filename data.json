@@ -9,8 +9,8 @@
         "name": "High School",
         "order": [
           {
-            "startTime": "20150101000000",
-            "endTime": "20150125000000",
+            "startTime": "20090701000000",
+            "endTime": "20120630000000",
             "level": "1",
             "location": "Dalian, China"
           }
@@ -32,8 +32,8 @@
         "name": "University",
         "order": [
           {
-            "startTime": "2015012500000",
-            "endTime": "20150311000000",
+            "startTime": "2012070100000",
+            "endTime": "20160630000000",
             "level": "1",
             "location": "Shanghai, China"
           }
@@ -55,8 +55,8 @@
             "name": "Kick-off Design Phase",
             "order": [
               {
-                "startTime": "20150125000000",
-                "endTime": "20150126000000",
+                "startTime": "20150701000000",
+                "endTime": "20160229000000",
                 "level": "2"
               }
             ]
@@ -81,8 +81,8 @@
         "name": "Internship",
         "order": [
           {
-            "startTime": "2015031100000",
-            "endTime": "20150430000000",
+            "startTime": "20150701000000",
+            "endTime": "20160229000000",
             "level": "1",
             "location": "Shanghai, China"
           }
