@@ -94,6 +94,7 @@ sap.ui.define([
 			var that = this;
 			var oToolbar = new sap.m.Toolbar({
 				content: [
+					/*
 					new sap.m.Link({
 						text: "Create Task",
 						press: function() {
@@ -109,6 +110,7 @@ sap.ui.define([
 					}),
 					new sap.m.ToolbarSpacer({width: "10px"}),
 					new sap.m.ToolbarSeparator()
+					*/
 				]
 			});
 
