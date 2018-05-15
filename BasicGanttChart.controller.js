@@ -70,7 +70,7 @@ sap.ui.define([
 				oGanttChartWithTable.setShapes(that._configShape());
 				oGanttChartWithTable.setToolbarSchemes(that._createToolbarSchemes());
 				oGanttChartWithTable.setSelectionMode(sap.gantt.SelectionMode.Multiple);
-				oGanttChartWithTable._oTT.setExpandFirstLevel(true);
+				oGanttChartWithTable._oTT.expandToLevel(2);
 			});
 
 
