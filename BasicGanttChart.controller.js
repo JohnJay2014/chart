@@ -70,6 +70,7 @@ sap.ui.define([
 				oGanttChartWithTable.setShapes(that._configShape());
 				oGanttChartWithTable.setToolbarSchemes(that._createToolbarSchemes());
 				oGanttChartWithTable.setSelectionMode(sap.gantt.SelectionMode.Multiple);
+				oGanttChartWithTable._oTT.expandToLevel(2);
 			});
 
 
@@ -93,6 +94,7 @@ sap.ui.define([
 			var that = this;
 			var oToolbar = new sap.m.Toolbar({
 				content: [
+					/*
 					new sap.m.Link({
 						text: "Create Task",
 						press: function() {
@@ -108,6 +110,7 @@ sap.ui.define([
 					}),
 					new sap.m.ToolbarSpacer({width: "10px"}),
 					new sap.m.ToolbarSeparator()
+					*/
 				]
 			});
 
@@ -186,9 +189,9 @@ sap.ui.define([
 								content: "<div width='100%' height='50%' style='margin-top: 25px'><svg width='180px' height='60px'><g>" +
 									"<g style='display: block;'>" +
 									"<g><rect x='" + (sap.ui.getCore().getConfiguration().getRTL() ? "155" : "25" ) + "' y='2' width='20' height='20' fill=" + sSumTaskColor + " style='stroke: " + sSumTaskColor + "; stroke-width: 2px;'></rect>" +
-									"<text x='" + (sap.ui.getCore().getConfiguration().getRTL() ? "125" : "55" ) + "' y='16' font-size='0.875rem' fill=" + sTextColor + ">Summary task</text></g>" +
+									"<text x='" + (sap.ui.getCore().getConfiguration().getRTL() ? "125" : "55" ) + "' y='16' font-size='0.875rem' fill=" + sTextColor + ">Stage</text></g>" +
 									"<g><rect x='" + (sap.ui.getCore().getConfiguration().getRTL() ? "155" : "25" ) + "' y='32' width='20' height='20' fill=" + sTasksColor + " style='stroke: " + sTasksColor + "; stroke-width: 2px;'></rect>" +
-									"<text x='" + (sap.ui.getCore().getConfiguration().getRTL() ? "125" : "55" ) + "' y='46' font-size='0.875rem' fill=" + sTextColor + ">Task</text></g>" +
+									"<text x='" + (sap.ui.getCore().getConfiguration().getRTL() ? "125" : "55" ) + "' y='46' font-size='0.875rem' fill=" + sTextColor + ">Sub-stage</text></g>" +
 									"</g></g></svg></div>"
 							})
 						]
@@ -496,6 +499,7 @@ sap.ui.define([
 			}
 
 			var sTargetId = oTargetData.objectInfo.id;
+			var sId = aSourceShapeData[0].objectInfo.id;
 
 			if (this._checkDropSameRow(sSourceId, sTargetId) && this._selectOnlyOneRow(aSourceShapeData)) {
 				//oSourceShapeData is a reference, so we only need to change startTime and endTime, then reset data model
@@ -547,13 +551,13 @@ sap.ui.define([
 		_createTimeAxis: function() {
 			var oTimeAxis = new sap.gantt.config.TimeAxis({
 				planHorizon: new sap.gantt.config.TimeHorizon({
-					startTime: "20131228000000",
-					endTime: "20170101000000"
+					startTime: "20080101000000",
+					endTime: "20200101000000"
 				}),
 				// specify initHorizon rather than the default one
 				initHorizon: new sap.gantt.config.TimeHorizon({
-					startTime: "20161001000000",
-					endTime: "20161201000000"
+					startTime: "20080101000000",
+					endTime: "20200101000000"
 				}),
 				zoomStrategy: {
 					"1day": {
